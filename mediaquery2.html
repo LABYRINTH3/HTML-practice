@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            border:10px solid green;
+            font-size: 60px;
+        }
+        
+        /* 만약 화면이 800픽셀보다 작다면 괄호 안에 것을 작동시켜라 */
+        @media (max-width:800px){
+            div{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Responsive
+    </div>
+</body>
+</html>
