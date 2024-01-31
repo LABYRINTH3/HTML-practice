@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            /* block level element 화면 전체를 쓰는 태그 */
+            /* h1, a라고 적어서 중복을 줄일 수 있음 */
+            h1, a{
+                /* 중복을 없애기 위해서 더 줄이는 방법 */
+                border:5px solid blue;
+                /* border-width: 5px;
+                border-color: blue;
+                border-style: solid; */
+
+                /* 상자의 테두리와 글자 사이에 간격 넣기 패딩 잠바...*/
+                padding: 20px;
+                /* 상자와 상자 사이의 간격 */
+                margin: 10px;
+                /* 화면 전체(가로)를 쓰는 명령어  */
+                display: block;
+                /* 화면의 일부만 쓰게 만드는 명령어 가로 길이 지정*/
+                width: 100px;
+            }
+            /* inline element 화면 일부를 쓰는 태그 */
+            /* a{
+                border-width: 5px;
+                border-color: blue;
+                border-style: solid;
+
+                display: none;
+                을 사용하면 화면에 출력이 안됨
+            } */
+        </style>
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <h1>HTML</h1>
+        <p>
+        HTML stands for HyperText Markup Language(<a href="https://namu.wiki/w/HTML">HTML</a>).
+        It's a markup language that defines the structure and meaning of web content. 
+        HTML is the standard markup language for creating web pages.
+        HTML is a set of markup symbols or codes that are inserted into a file for display on the internet.
+        The markup tells web browsers how to display the words and images on a web page. 
+        </p>
+    </body>
+</html>

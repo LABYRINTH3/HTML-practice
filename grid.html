@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* id값이 그리드인 애들에 대해서 */
+        #grid{
+            border:5px solid pink;
+            display: grid;
+            /* navigation과 article을 하나의 컬럼에 배치하고 싶음 */
+            /* navigation은 150px고정 article은 1fr로 변동 */
+            /* 글자가 많아져도 자동으로 변동 */
+            /* can i use라는 사이트에서 내가 해당 기술을 사용했을때 어느 웹 브라우저가 어디까지 지원하는지 보여줌 중요함 */
+            grid-template-columns: 150px 1fr;
+        }
+        div{
+            border:5px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- 두 div를 가로로 배치하기 위해 부모 그리드를 만듬 -->
+    <div id="grid">
+        <!-- 아무 의미도 없는 태그 화면 전체를 씀-->
+        <div>NAVIGATION 150px 띄어쓰기 기준으로 150px이 넘어가면 다음 라인으로 보내네</div>
+        <div>1fr <br>ARTICLE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <!-- span은 화면 일부를 쓰는 아무 의미도 없는 태그 -->
+    </div>
+</body>
+</html>
