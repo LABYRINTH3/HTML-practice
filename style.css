@@ -33,7 +33,7 @@ img {
     padding-left: 25px;
     padding-right: 5px;
 }
-@media(max-width:500px){
+@media(max-width:360px){
     #grid{
         display: block;
     }
