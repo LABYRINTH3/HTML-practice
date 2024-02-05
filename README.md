@@ -16,8 +16,7 @@ This project is my first attempt at creating a web page using HTML and CSS. The 
 
 1. Clone this repository.
 2. Open the `index.html` file in a web browser.
-3. or open this link >> https://labyrinth3.github.io/HTML-practice/
-
+3. Or open this [link](https://labyrinth3.github.io/HTML-practice/)
 
 ## Setup
 
