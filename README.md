@@ -27,8 +27,7 @@ No special setup is required.
 
 This project is automatically deployed using GitHub Actions.
 
-## License
 
-This project is licensed under the MIT License.
+## Photo from 
 
-Photo from https://unsplash.com/
+https://unsplash.com/
